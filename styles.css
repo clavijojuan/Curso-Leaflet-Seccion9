@@ -1,0 +1,76 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0
+}
+
+#map {
+    width: 70%;
+    height: 100%;
+}
+
+#sidebar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    width: 30%;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    max-height: 100%;
+    overflow-y: auto;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+#sidebar:hover{
+    cursor: pointer;
+}
+
+form {
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    background-color: black;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    z-index: 9999;
+    color: white;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.myDivIcon{
+    color: red;
+    font-size: 30px;
+}
+
+.popupContent {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.popupContent button {
+    color: white;
+    font-size: 9px;
+    border: 0;
+    width: auto;
+    border-radius: 5px;
+    height: 1.5rem;
+    margin-top: 7px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.cancelar {
+    background-color: red
+}
+
+.proceso {
+    background-color: green
+}
